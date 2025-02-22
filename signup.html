@@ -11,17 +11,90 @@
       <p>An innovative dating app. Currently under construction.</p>
       <nav>
         <ul>
-          <li><a href="/index.html">Main</a></li>
-          <li><a href="/people.html">People</a></li>
-          <li><a href="/reviews.html">Reviews</a></li>
-          <li><a href="/signup.html">Sign-up!</a></li>
+          <li><a href="/index.html">main</a></li>
+          <li><a href="/people.html">people</a></li>
+          <li><a href="/reviews.html">reviews</a></li>
+          <li>
+            <a href="/signup.html">sign-up!</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main><h2>Sign up here!</h2></main>
+    <main>
+      <h2>Sign up below!</h2>
+      <form action="">
+        <label for="realname">Name*:</label
+        ><input type="text" id="realname" placeholder="You name" required />
+        <br />
+        <br />
+        <label for="username">User name*:</label
+        ><input
+          type="text"
+          id="username"
+          placeholder="You user name"
+          required
+        />
+        <br />
+        <br />
+        <label for="description">How would you describe yourself?</label>
+        <br />
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Write something about yourself..."
+        ></textarea>
+        <br />
+        <br />
+        <label for="preference">Your partner preference*:</label>
+        <br />
+        <input type="radio" id="women" name="gender" value="women" />
+        <label for="women">Women</label>
+        <br />
+        <input type="radio" id="men" name="gender" value="men" />
+        <label for="man">Men</label>
+        <br />
+        <input type="radio" id="womenmen" name="gender" value="womenmen" />
+        <label for="womenmen">Women & men</label>
+        <br />
+        <input type="radio" id="nonbinary" name="gender" value="nonbinary" />
+        <label for="nonbinary">Non-binary</label>
+        <br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other, please specify:</label>
+        <input type="text" name="" id="" />
+        <br />
+        <br />
+        <label for="distance">Search distance:</label>
+        <br />
+        <select name="distance" id="distance">
+          <option value="">--Distance from your location--</option>
+          <option value="5km">5km</option>
+          <option value="10km">10km</option>
+          <option value="20km">20km</option>
+          <option value="30km">30km</option>
+          <option value="40km">40km</option>
+          <option value="50km">50km</option>
+          <option value="50kmmore">50km+</option>
+        </select>
+        <br />
+        <br />
+        <label for="email">Your email*:</label>
+        <input type="email" placeholder="Enter your email" required />
+        <br />
+        <br />
+        <label for="password">Your password*:</label>
+        <input type="password" name="password" id="password" />
+        <br />
+        <br />
+
+        <input type="submit" name="submit" id="submit" value="Submit" />
+      </form>
+    </main>
     <br />
     <br />
     <footer>
+      _______________________________________________________________________
+      <br />
       <small>winc-winc • ©2025</small><br /><small
         ><a href="email:hello@wincwinc.com">Contact us</a></small
       >
