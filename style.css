@@ -1,0 +1,39 @@
+body {
+    background-color: #F1F0E9;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #41644A;
+    color: #E9762B;
+    
+}
+
+header h1 {
+    color: #E9762B;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+background-color: #0D4715;
+margin: 0;
+padding: 5px;
+}
+
+nav li, a {
+    color: #E9762B;
+    display: inline;
+    margin: 10px;
+}
+
+article {
+display:inline-block;
+background-color:#e2a073;
+box-sizing:border-box;
+width: 22%;
+border: dotted black 1px;
+border-radius: 20px;
+margin: 10px 5px;
+}
