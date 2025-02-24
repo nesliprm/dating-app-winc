@@ -2,6 +2,7 @@ body {
     background-color: #F1F0E9;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -30,10 +31,29 @@ nav li, a {
 
 article {
 display:inline-block;
-background-color:#e2a073;
-box-sizing:border-box;
-width: 22%;
+margin: 10px 5px;
 border: dotted black 1px;
 border-radius: 20px;
-margin: 10px 5px;
+box-sizing:border-box;
+width: 22%;
+vertical-align: top;
+height: 100%;
+padding: 5px;
+background-color:#e2a073;
+
+
+
+
+
+}
+
+article img {
+    border-radius: 20px;
+    max-width: 100%;
+    
+}
+
+main a {
+    margin: 0;
+    color: black;
 }
