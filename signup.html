@@ -8,8 +8,14 @@
   </head>
   <body>
     <header>
+      <img
+        class="banner"
+        width="50%"
+        src="/images/winc-banner2.jpg"
+        alt="winc-winc banner"
+      />
       <h1>winc-winc😘</h1>
-      <p>An innovative dating app. Currently under construction.</p>
+      <p>your new innovative dating app</p>
       <nav>
         <ul>
           <li><a href="/index.html">main</a></li>
@@ -23,73 +29,73 @@
     </header>
     <main>
       <h2>Sign up below!</h2>
-      <form action="">
-        <label for="realname">Name*:</label
-        ><input type="text" id="realname" placeholder="You name" required />
-        <br />
-        <br />
-        <label for="username">User name*:</label
-        ><input
-          type="text"
-          id="username"
-          placeholder="You user name"
-          required
-        />
-        <br />
-        <br />
-        <label for="description">How would you describe yourself?</label>
-        <br />
-        <textarea
-          name="description"
-          id="description"
-          placeholder="Write something about yourself..."
-        ></textarea>
-        <br />
-        <br />
-        <label for="preference">Your partner preference*:</label>
-        <br />
-        <input type="radio" id="women" name="gender" value="women" />
-        <label for="women">Women</label>
-        <br />
-        <input type="radio" id="men" name="gender" value="men" />
-        <label for="man">Men</label>
-        <br />
-        <input type="radio" id="womenmen" name="gender" value="womenmen" />
-        <label for="womenmen">Women & men</label>
-        <br />
-        <input type="radio" id="nonbinary" name="gender" value="nonbinary" />
-        <label for="nonbinary">Non-binary</label>
-        <br />
-        <input type="radio" id="other" name="gender" value="other" />
-        <label for="other">Other, please specify:</label>
-        <input type="text" name="" id="" />
-        <br />
-        <br />
-        <label for="distance">Search distance:</label>
-        <br />
-        <select name="distance" id="distance">
-          <option value="">--Distance from your location--</option>
-          <option value="5km">5km</option>
-          <option value="10km">10km</option>
-          <option value="20km">20km</option>
-          <option value="30km">30km</option>
-          <option value="40km">40km</option>
-          <option value="50km">50km</option>
-          <option value="50kmmore">50km+</option>
-        </select>
-        <br />
-        <br />
-        <label for="email">Your email*:</label>
-        <input type="email" placeholder="Enter your email" required />
-        <br />
-        <br />
-        <label for="password">Your password*:</label>
-        <input type="password" name="password" id="password" />
-        <br />
-        <br />
+      <div class="form-container">
+        <form action="signup">
+          <label for="realname">Name*:</label
+          ><input type="text" id="realname" placeholder="You name" required />
+          <br />
+          <br />
+          <label for="username">User name*:</label
+          ><input
+            type="text"
+            id="username"
+            placeholder="You user name"
+            required
+          />
+          <br />
+          <br />
+          <label for="description">How would you describe yourself?</label>
+          <br />
+          <textarea
+            name="description"
+            id="description"
+            placeholder="Write something about yourself..."
+          ></textarea>
+          <br />
+          <br />
+          <label for="preference">Your partner preference*:</label>
+          <br />
+          <input type="radio" id="women" name="gender" value="women" />
+          <label for="women">Women</label>
+          <br />
+          <input type="radio" id="men" name="gender" value="men" />
+          <label for="man">Men</label>
+          <br />
+          <input type="radio" id="womenmen" name="gender" value="womenmen" />
+          <label for="womenmen">Women & men</label>
+          <br />
 
-        <input type="submit" name="submit" id="submit" value="Submit" />
-      </form>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other, please specify:</label>
+          <input type="text" name="" id="" />
+          <br />
+          <br />
+          <label for="distance">Search distance:</label>
+          <br />
+          <select name="distance" id="distance">
+            <option value="">--Distance from your location--</option>
+            <option value="5km">5km</option>
+            <option value="10km">10km</option>
+            <option value="20km">20km</option>
+            <option value="30km">30km</option>
+            <option value="40km">40km</option>
+            <option value="50km">50km</option>
+            <option value="50kmmore">50km+</option>
+          </select>
+          <br />
+          <br />
+          <label for="email">Your email*:</label>
+          <input type="email" placeholder="Enter your email" required />
+          <br />
+          <br />
+          <label for="password">Your password*:</label>
+          <input type="password" name="password" id="password" />
+          <br />
+          <br />
+
+          <input type="submit" name="submit" id="submit" value="Submit" />
+        </form>
+      </div>
     </main>
     <br />
     <br />

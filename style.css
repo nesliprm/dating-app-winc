@@ -15,6 +15,12 @@ header h1 {
     color: #E9762B;
     font-size: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px auto;
+}
+
+header p {
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -40,11 +46,6 @@ vertical-align: top;
 height: 100%;
 padding: 5px;
 background-color:#e2a073;
-
-
-
-
-
 }
 
 article img {
@@ -56,4 +57,26 @@ article img {
 main a {
     margin: 0;
     color: black;
+}
+
+.banner {
+    width: 100%;
+}
+
+.form-container {
+    border: dotted black 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: left;
+    padding: 20px 40px;
+    
+    
+}
+
+.reviews {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
 }
