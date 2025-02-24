@@ -59,6 +59,10 @@ main a {
     color: black;
 }
 
+footer {
+    margin-bottom: 10px;
+}
+
 .banner {
     width: 100%;
 }
@@ -80,3 +84,4 @@ main a {
     display: block;
     margin: 0 auto;
 }
+
