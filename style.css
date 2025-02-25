@@ -6,31 +6,45 @@ body {
 }
 
 header {
-    background-color: #41644A;
-    color: #E9762B;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/images/winc-banner.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+color: #E9762B;
+height: 500px;
+align-content: center;
     
 }
 
 header h1 {
     color: #E9762B;
-    font-size: 50px;
+    text-shadow: 2px 1px black;
+    font-size: 75px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 10px auto;
+    
+    
 }
 
 header p {
+    
     font-size: 14px;
-    margin-bottom: 30px;
+    text-shadow: 2px 1px black;
 }
 
 nav {
-background-color: #0D4715;
+background-color: #41644A;
 margin: 0;
 padding: 5px;
 }
 
 nav li, a {
     color: #E9762B;
+    
     display: inline;
     margin: 10px;
 }
