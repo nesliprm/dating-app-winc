@@ -1,4 +1,4 @@
-module.exports = {
+const mockData = {
   data: [{ "first_name": "Tally", "last_name": "Lillyman", "age": 22, "gender": "F", "gender_interest": "X", "location": "city", "min_age_interest": 30, "max_age_interest": 66 },
   { "first_name": "Ryun", "last_name": "Cobb", "age": 22, "gender": "F", "gender_interest": "M", "location": "city", "min_age_interest": 32, "max_age_interest": 82 },
   { "first_name": "Sheffie", "last_name": "Elecum", "age": 45, "gender": "M", "gender_interest": "M", "location": "rural", "min_age_interest": 29, "max_age_interest": 61 },
