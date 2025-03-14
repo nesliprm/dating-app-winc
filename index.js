@@ -12,19 +12,23 @@
 //     },
 //   ],
 // };
-// let i = 55;
-// let userFirstName = mockData.data[i].first_name;
-// let userLastName = mockData.data[i].last_name;
-// let userAge = mockData.data[i].age;
-// let userGender = mockData.data[i].gender;
-// let userGenderInterest = mockData.data[i].gender_interest;
-// let userLocation = mockData.data[i].location;
-// let userMinAgeInterest = mockData.data[i].min_age_interest;
-// let userMaxAgeInterest = mockData.data[i].max_age_interest;
 
-const yourProfile = {};
+// const yourProfile = {};
+
+const yourProfile = {
+  first_name: "Nesli",
+  last_name: "Parma",
+  age: 39,
+  gender: "F",
+  gender_interest: "M",
+  location: "city",
+  min_age_interest: 33,
+  max_age_interest: 43,
+};
 
 // NAME BLOCK
+
+/*
 
 let yourName = "";
 let yourLastName = "";
@@ -168,3 +172,12 @@ while (!yourMaxAgeInterest || yourMaxAgeInterest < yourMinAgeInterest) {
 }
 
 yourProfile.max_age_interest = yourMaxAgeInterest;
+
+//
+
+*/
+
+const userList = mockData.data;
+for (const user of userList) {
+  console.log(userList.length);
+}
