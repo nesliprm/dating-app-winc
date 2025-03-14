@@ -15,17 +15,6 @@
 
 // const yourProfile = {};
 
-const yourProfile = {
-  first_name: "Nesli",
-  last_name: "Parma",
-  age: 39,
-  gender: "F",
-  gender_interest: "M",
-  location: "city",
-  min_age_interest: 33,
-  max_age_interest: 43,
-};
-
 // NAME BLOCK
 
 /*
@@ -177,7 +166,35 @@ yourProfile.max_age_interest = yourMaxAgeInterest;
 
 */
 
+const yourProfile = {
+  first_name: "Nesli",
+  last_name: "Parma",
+  age: 39,
+  gender: "F",
+  gender_interest: "M",
+  location: "city",
+  min_age_interest: 20,
+  max_age_interest: 90,
+};
+
+let profileMatch = [];
+
 const userList = mockData.data;
 for (const user of userList) {
-  console.log(userList.length);
+  if (
+    user.location === yourProfile.location &&
+    user.gender_interest === yourProfile.gender &&
+    yourProfile.gender_interest === user.gender &&
+    user.min_age_interest <= yourProfile.age &&
+    user.max_age_interest >= yourProfile.age &&
+    yourProfile.min_age_interest <= user.age &&
+    yourProfile.max_age_interest >= user.age
+  ) {
+    console.log(`${user.first_name} is a match!`);
+    profileMatch.push(user);
+  }
 }
+
+console.log(
+  `Here's more information about ${profileMatch.first_name}: They're ${profileMatch.age} years old ${profileMatch.gender}, located in the ${profileMatch.location} and interested in ${profileMatch.gender_interest} gender between the ages of ${profileMatch.min_age_interest} and ${profileMatch.max_age_interest}.`
+);
